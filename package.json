@@ -1,4 +1,5 @@
 {
+  "homepage": "Tattvam21.github.io/FinWiseDashboard",
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
@@ -6,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "start": "vite",
+    "predeploy":"npm run build",
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
